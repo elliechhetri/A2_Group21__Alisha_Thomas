@@ -32,4 +32,3 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 });
-// commit step 1
