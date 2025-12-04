@@ -4,8 +4,8 @@ export default function AboutScreen() {
   return (
     <View style={styles.screen}>
       <Text style={styles.title}>About This App</Text>
-      <Text style={styles.text}>Full Name: Alisha Adhikari</Text>
-      <Text style={styles.text}>Student ID: 101514070</Text>
+      <Text style={styles.text}>Full Name: Alisha Adhikari & Thomas del Mundo</Text>
+      <Text style={styles.text}>Student ID: 101514070 & 101498572</Text>
 
       <Text style={[styles.text, { marginTop: 16 }]}>
         This app converts currencies using freecurrencyapi. It validates input,
