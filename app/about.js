@@ -32,3 +32,4 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
 });
+// Added additional inline comment for code clarity
