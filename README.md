@@ -1,50 +1,56 @@
-# Welcome to your Expo app 👋
+# Assignment 2 – Currency Converter App  
+COMP3074 – Mobile App Development (Fall 2025)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Group Members
+- **Alisha Adhikari** – 101514070  
+- **Thomas Del Mundo** – 101498572  
 
-## Get started
+## About the App
+This app is a simple currency converter built with **React Native (Expo)**.  
+The user can enter:
+- Base currency (example CAD)
+- Destination currency (example USD)
+- Amount to convert
 
-1. Install dependencies
+The app checks the input, calls the **FreeCurrencyAPI**, gets the exchange rate, and shows the converted amount. It also shows errors if something is wrong, like invalid currency code or network issues.
 
-   ```bash
-   npm install
-   ```
+There are **two screens**:
+1. **Main Screen** – all the input fields, Convert button, errors, loading, and final result.
+2. **About Screen** – our names, student IDs, and a small description of the app.
 
-2. Start the app
+Navigation is done using **Expo Router**.
 
-   ```bash
-   npx expo start
-   ```
+## Features
+- Input validation (3-letter currency codes + positive number)
+- API call to FreeCurrencyAPI
+- Loading indicator
+- Error handling
+- Shows exchange rate and converted value
+- Clean and simple UI
+- About page with student information
 
-In the output, you'll find options to open the app in a
+## How to Run
+1. Install dependencies:
+npm install
+2. Start the project:
+npx expo start
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+3. Press:
+- **w** → open in browser  
+- Or scan QR code in Expo Go app
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## AI Usage
+We used AI (ChatGPT) to help with:
+- Understanding steps  
+- Fixing errors  
+- Writing small parts of the code  
+- Writing README  
+- Explaining how to structure the project  
 
-## Get a fresh project
+We reviewed everything and made sure the app works properly.
 
-When you're ready, run:
+The AI usage declaration PDF is also included in the submission.
 
-```bash
-npm run reset-project
-```
+## Status
+The app is complete and ready to submit.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
