@@ -33,3 +33,4 @@ const styles = StyleSheet.create({
   },
 });
 
+// About screen: minor documentation update
