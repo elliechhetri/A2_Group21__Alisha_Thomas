@@ -34,4 +34,3 @@ const styles = StyleSheet.create({
 });
 
 
-//dev-notes.txt
