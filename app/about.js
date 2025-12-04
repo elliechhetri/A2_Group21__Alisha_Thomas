@@ -34,4 +34,3 @@ const styles = StyleSheet.create({
 });
 
 
-// Added placeholder for future testing integration
