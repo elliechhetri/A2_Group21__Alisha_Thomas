@@ -4,9 +4,11 @@ export default function AboutScreen() {
   return (
     <View style={styles.screen}>
       <Text style={styles.title}>About This App</Text>
-      <Text style={styles.text}>Full Name: Alisha Adhikari & Thomas del Mundo</Text>
-      <Text style={styles.text}>Student ID of Alisha Adhikari : 101514070 & Student ID of Thomas del Mundo: 101498572</Text>
-
+      <Text style={styles.text}>George Brown College, T197 | Sem 5 | COMP3074</Text>
+      <Text style={[styles.text, { marginTop: 16 }]}>Group Members:</Text>
+      <Text style={styles.text}>Alisha Adhikari (101514070) </Text>
+      <Text style={styles.text}>Thomas del Mundo (101498572)</Text>
+    
       <Text style={[styles.text, { marginTop: 16 }]}>
         This app converts currencies using freecurrencyapi. It validates input,
         fetches live exchange rates, and displays converted values.
@@ -30,6 +32,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     marginBottom: 8,
+    textAlign: "center"
   },
 });
 
