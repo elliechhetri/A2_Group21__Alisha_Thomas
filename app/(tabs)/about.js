@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Linking, StyleSheet, Text, View } from "react-native";
 
 export default function AboutScreen() {
   return (
@@ -10,8 +10,16 @@ export default function AboutScreen() {
       <Text style={styles.text}>Thomas del Mundo (101498572)</Text>
     
       <Text style={[styles.text, { marginTop: 16 }]}>
-        This app converts currencies using freecurrencyapi. It validates input,
-        fetches live exchange rates, and displays converted values.
+        This app converts currencies using freecurrencyapi:
+      </Text>
+
+      <Text style={styles.link}
+        onPress={() => Linking.openURL('https://freecurrencyapi.com/')}>
+        freecurrencyapi.com
+      </Text>
+
+      <Text style={[styles.text, { marginTop: 16 }]}>
+        It validates input, fetches live exchange rates, and displays converted values.
       </Text>
     </View>
   );
@@ -30,6 +38,12 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   text: {
+    fontSize: 16,
+    marginBottom: 8,
+    textAlign: "center"
+  },
+  link: {
+    color: '#0066cc',
     fontSize: 16,
     marginBottom: 8,
     textAlign: "center"
