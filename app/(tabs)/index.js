@@ -1,12 +1,12 @@
 import { Link } from "expo-router";
 import { useState } from "react";
 import {
-    ActivityIndicator,
-    Button,
-    StyleSheet,
-    Text,
-    TextInput,
-    View,
+  ActivityIndicator,
+  Button,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 
 export default function MainScreen() {
@@ -157,7 +157,7 @@ export default function MainScreen() {
 
       <View style={{ marginTop: 30 }}>
         <Link href="/about">
-          <Button title="Go to About Screen" />
+          {/* <Button title="Go to About Screen" /> */}
         </Link>
       </View>
     </View>
